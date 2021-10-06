@@ -1,11 +1,32 @@
 apiVersion: v1
 entries:
+  opentelemetry-collector:
+  - apiVersion: v2
+    appVersion: 0.22.0
+    created: "2021-10-06T20:30:39.313115399Z"
+    description: OpenTelemetry Collector Helm chart for Kubernetes
+    digest: 27593e47b17de3e0f5ace71ebac604308d86cda1b1732b7a8210a21c688cf149
+    home: https://opentelemetry.io/
+    icon: https://opentelemetry.io/img/logos/opentelemetry-logo-nav.png
+    maintainers:
+    - name: bogdandrutu
+    - name: dmitryax
+    - name: pjanotti
+    - name: tigrannajaryan
+    name: opentelemetry-collector
+    sources:
+    - https://github.com/open-telemetry/opentelemetry-collector
+    - https://github.com/open-telemetry/opentelemetry-collector-contrib
+    type: application
+    urls:
+    - https://github.com/open-o11y/opentelemetry-helm-charts/releases/download/opentelemetry-collector-0.5.11/opentelemetry-collector-0.5.11.tgz
+    version: 0.5.11
   opentelemetry-operator:
   - apiVersion: v2
-    appVersion: 0.31.0
-    created: "2021-08-23T14:32:29.915702232Z"
+    appVersion: 0.33.0
+    created: "2021-10-06T20:30:39.491518147Z"
     description: OpenTelemetry Operator Helm chart for Kubernetes
-    digest: eabd9bf190f7eec058437dd1035f35c492703610e055d4f0af22086a19c1c9bc
+    digest: e976aba63ff73bb6598ce00990391934c548621d3760ebdbf7b5632ecce78e09
     home: https://opentelemetry.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/a718fa97fffec1b9fd14147682e9e3ac0c8817cb/projects/opentelemetry/icon/color/opentelemetry-icon-color.png
     maintainers:
@@ -21,6 +42,6 @@ entries:
     - https://github.com/open-telemetry/opentelemetry-operator
     type: application
     urls:
-    - https://github.com/open-o11y/opentelemetry-helm-charts/releases/download/opentelemetry-operator-0.2.0/opentelemetry-operator-0.2.0.tgz
-    version: 0.2.0
-generated: "2021-08-23T14:32:29.676569625Z"
+    - https://github.com/open-o11y/opentelemetry-helm-charts/releases/download/opentelemetry-operator-0.3.2/opentelemetry-operator-0.3.2.tgz
+    version: 0.3.2
+generated: "2021-10-06T20:30:39.491523547Z"
