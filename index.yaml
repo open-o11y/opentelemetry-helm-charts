@@ -3,9 +3,9 @@ entries:
   opentelemetry-collector:
   - apiVersion: v2
     appVersion: 0.22.0
-    created: "2021-10-06T20:30:39.313115399Z"
+    created: "2021-10-08T04:15:09.549581085Z"
     description: OpenTelemetry Collector Helm chart for Kubernetes
-    digest: 27593e47b17de3e0f5ace71ebac604308d86cda1b1732b7a8210a21c688cf149
+    digest: b70a3c163c2eb9854915ef2034f3ecc95aae82ba4734f6653a7ca8c5892f3504
     home: https://opentelemetry.io/
     icon: https://opentelemetry.io/img/logos/opentelemetry-logo-nav.png
     maintainers:
@@ -19,29 +19,6 @@ entries:
     - https://github.com/open-telemetry/opentelemetry-collector-contrib
     type: application
     urls:
-    - https://github.com/open-o11y/opentelemetry-helm-charts/releases/download/opentelemetry-collector-0.5.11/opentelemetry-collector-0.5.11.tgz
-    version: 0.5.11
-  opentelemetry-operator:
-  - apiVersion: v2
-    appVersion: 0.33.0
-    created: "2021-10-06T20:30:39.491518147Z"
-    description: OpenTelemetry Operator Helm chart for Kubernetes
-    digest: e976aba63ff73bb6598ce00990391934c548621d3760ebdbf7b5632ecce78e09
-    home: https://opentelemetry.io/
-    icon: https://raw.githubusercontent.com/cncf/artwork/a718fa97fffec1b9fd14147682e9e3ac0c8817cb/projects/opentelemetry/icon/color/opentelemetry-icon-color.png
-    maintainers:
-    - name: bogdandrutu
-    - name: dmitryax
-    - name: pjanotti
-    - name: tigrannajaryan
-    - name: jpkrohling
-    - name: alolita
-    - name: Aneurysm9
-    name: opentelemetry-operator
-    sources:
-    - https://github.com/open-telemetry/opentelemetry-operator
-    type: application
-    urls:
-    - https://github.com/open-o11y/opentelemetry-helm-charts/releases/download/opentelemetry-operator-0.3.2/opentelemetry-operator-0.3.2.tgz
-    version: 0.3.2
-generated: "2021-10-06T20:30:39.491523547Z"
+    - https://github.com/open-o11y/opentelemetry-helm-charts/releases/download/opentelemetry-collector-0.6.0/opentelemetry-collector-0.6.0.tgz
+    version: 0.6.0
+generated: "2021-10-08T04:15:09.549591186Z"
