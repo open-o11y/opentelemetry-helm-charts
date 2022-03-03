@@ -1,11 +1,32 @@
 apiVersion: v1
 entries:
+  opentelemetry-collector:
+  - apiVersion: v2
+    appVersion: 0.43.0
+    created: "2022-03-03T19:47:18.237466983Z"
+    description: OpenTelemetry Collector Helm chart for Kubernetes
+    digest: 34abbaca3a7509517ba65fe847d64fd44885df32d22d47ae864a3258ba53612d
+    home: https://opentelemetry.io/
+    icon: https://opentelemetry.io/img/logos/opentelemetry-logo-nav.png
+    maintainers:
+    - name: bogdandrutu
+    - name: dmitryax
+    - name: pjanotti
+    - name: tigrannajaryan
+    name: opentelemetry-collector
+    sources:
+    - https://github.com/open-telemetry/opentelemetry-collector
+    - https://github.com/open-telemetry/opentelemetry-collector-contrib
+    type: application
+    urls:
+    - https://github.com/open-o11y/opentelemetry-helm-charts/releases/download/opentelemetry-collector-0.9.2/opentelemetry-collector-0.9.2.tgz
+    version: 0.9.2
   opentelemetry-operator:
   - apiVersion: v2
-    appVersion: 0.41.1
-    created: "2022-01-28T00:16:59.892007995Z"
+    appVersion: 0.43.0
+    created: "2022-03-03T19:47:18.363584564Z"
     description: OpenTelemetry Operator Helm chart for Kubernetes
-    digest: c9f108b279587998d77639a0c20cd50abbafb64abc253a160e94cd6cacce6fe6
+    digest: 8dd61fdceb7b4f533db11cee6bff752584fe15f24119c98c6cf342c2a82123ce
     home: https://opentelemetry.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/a718fa97fffec1b9fd14147682e9e3ac0c8817cb/projects/opentelemetry/icon/color/opentelemetry-icon-color.png
     maintainers:
@@ -21,6 +42,6 @@ entries:
     - https://github.com/open-telemetry/opentelemetry-operator
     type: application
     urls:
-    - https://github.com/open-o11y/opentelemetry-helm-charts/releases/download/opentelemetry-operator-0.5.2/opentelemetry-operator-0.5.2.tgz
-    version: 0.5.2
-generated: "2022-01-28T00:16:59.892020196Z"
+    - https://github.com/open-o11y/opentelemetry-helm-charts/releases/download/opentelemetry-operator-0.6.1/opentelemetry-operator-0.6.1.tgz
+    version: 0.6.1
+generated: "2022-03-03T19:47:18.363593164Z"
