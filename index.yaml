@@ -2,10 +2,10 @@ apiVersion: v1
 entries:
   opentelemetry-collector:
   - apiVersion: v2
-    appVersion: 0.43.0
-    created: "2022-03-03T19:47:18.237466983Z"
+    appVersion: 0.46.0
+    created: "2022-03-13T03:17:41.926217915Z"
     description: OpenTelemetry Collector Helm chart for Kubernetes
-    digest: 34abbaca3a7509517ba65fe847d64fd44885df32d22d47ae864a3258ba53612d
+    digest: 994880e56c6cc206ee0145232b31580b9fcc14fc2abcc4ba97af40ca3df567dd
     home: https://opentelemetry.io/
     icon: https://opentelemetry.io/img/logos/opentelemetry-logo-nav.png
     maintainers:
@@ -19,14 +19,14 @@ entries:
     - https://github.com/open-telemetry/opentelemetry-collector-contrib
     type: application
     urls:
-    - https://github.com/open-o11y/opentelemetry-helm-charts/releases/download/opentelemetry-collector-0.9.2/opentelemetry-collector-0.9.2.tgz
-    version: 0.9.2
+    - https://github.com/open-o11y/opentelemetry-helm-charts/releases/download/opentelemetry-collector-0.9.5/opentelemetry-collector-0.9.5.tgz
+    version: 0.9.5
   opentelemetry-operator:
   - apiVersion: v2
-    appVersion: 0.43.0
-    created: "2022-03-03T19:47:18.363584564Z"
+    appVersion: 0.45.0
+    created: "2022-03-13T03:17:42.061840389Z"
     description: OpenTelemetry Operator Helm chart for Kubernetes
-    digest: 8dd61fdceb7b4f533db11cee6bff752584fe15f24119c98c6cf342c2a82123ce
+    digest: 13243fe77b2fbbf213b6d425b13eca1477f99dc691eec7c5f5e4c5a5af301415
     home: https://opentelemetry.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/a718fa97fffec1b9fd14147682e9e3ac0c8817cb/projects/opentelemetry/icon/color/opentelemetry-icon-color.png
     maintainers:
@@ -42,6 +42,6 @@ entries:
     - https://github.com/open-telemetry/opentelemetry-operator
     type: application
     urls:
-    - https://github.com/open-o11y/opentelemetry-helm-charts/releases/download/opentelemetry-operator-0.6.1/opentelemetry-operator-0.6.1.tgz
-    version: 0.6.1
-generated: "2022-03-03T19:47:18.363593164Z"
+    - https://github.com/open-o11y/opentelemetry-helm-charts/releases/download/opentelemetry-operator-0.6.4/opentelemetry-operator-0.6.4.tgz
+    version: 0.6.4
+generated: "2022-03-13T03:17:42.061845889Z"
