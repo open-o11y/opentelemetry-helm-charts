@@ -1,32 +1,11 @@
 apiVersion: v1
 entries:
-  opentelemetry-collector:
-  - apiVersion: v2
-    appVersion: 0.49.0
-    created: "2022-04-25T21:27:10.773408705Z"
-    description: OpenTelemetry Collector Helm chart for Kubernetes
-    digest: 493fb6fecd7fbf7de65f659a02b64ee9181c75d14bcb4dde7cfe0f44e75cd12d
-    home: https://opentelemetry.io/
-    icon: https://opentelemetry.io/img/logos/opentelemetry-logo-nav.png
-    maintainers:
-    - name: bogdandrutu
-    - name: dmitryax
-    - name: pjanotti
-    - name: tigrannajaryan
-    name: opentelemetry-collector
-    sources:
-    - https://github.com/open-telemetry/opentelemetry-collector
-    - https://github.com/open-telemetry/opentelemetry-collector-contrib
-    type: application
-    urls:
-    - https://github.com/open-o11y/opentelemetry-helm-charts/releases/download/opentelemetry-collector-0.15.0/opentelemetry-collector-0.15.0.tgz
-    version: 0.15.0
   opentelemetry-operator:
   - apiVersion: v2
     appVersion: 0.46.0
-    created: "2022-04-25T21:27:10.9173292Z"
+    created: "2022-04-26T19:19:05.270794477Z"
     description: OpenTelemetry Operator Helm chart for Kubernetes
-    digest: 2eb6f9d735165295656ea8f21f559dad29156f41368760205a8ebc74b859ddfc
+    digest: ab1c70f30eb010f3c52c7864141ea4a70b33ba70ae8700dc62646828ed76dd19
     home: https://opentelemetry.io/
     icon: https://raw.githubusercontent.com/cncf/artwork/a718fa97fffec1b9fd14147682e9e3ac0c8817cb/projects/opentelemetry/icon/color/opentelemetry-icon-color.png
     maintainers:
@@ -42,6 +21,6 @@ entries:
     - https://github.com/open-telemetry/opentelemetry-operator
     type: application
     urls:
-    - https://github.com/open-o11y/opentelemetry-helm-charts/releases/download/opentelemetry-operator-0.6.7/opentelemetry-operator-0.6.7.tgz
-    version: 0.6.7
-generated: "2022-04-25T21:27:10.9173657Z"
+    - https://github.com/open-o11y/opentelemetry-helm-charts/releases/download/opentelemetry-operator-0.6.8/opentelemetry-operator-0.6.8.tgz
+    version: 0.6.8
+generated: "2022-04-26T19:19:05.270803977Z"
